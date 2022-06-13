@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ml40 {
+    margin-left: 40px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Left Side */
+
+.header-container .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    border-bottom: 1px solid #373737;
+}
+
+.onedio-text {
+    font-size: 25px;
+    cursor: pointer;
+    float: left;
+}
+
+
+/* Navbar Mid Side */
+
+.navbar .navbar-mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .navbar-mid a {
+    text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#000;
+    margin: 0 15px;
+    transition: 0.3s;
+}
+
+.btn {
+    background: none;
+    padding: 10px 10px;
+}
+
+.navbar-mid span:hover a:hover {
+    color:#0078c1;
+    background: none;
+    padding: 10px 10px;
+    background-color:#f2f2f2;
+}
+
+/* Navbar Right Side */
+
+.navbar-right {
+    text-align: center;
+}
+
+.material-symbols-outlined  {
+    margin-right: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+ 
+
+/* User Profile */
+
+.user {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 8px 1px;
+}
+
+.user img {
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 10px;
+    margin-left: 5px;
+    border-right: 1px solid #e2e2e2;
+}
+
+.name h4 {
+    margin-right: 6px;
+    color:#002ba3;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.name span {
+    font-size: 11px;
+    font-weight: 400;
+    cursor: pointer;
+    color:#777;
+}
+
+.shared {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 10px;
+    margin-left: 10px;
+    border-right: 1px solid #e2e2e2;
+
+}
+
+.shared h5 {
+    font-size: 13px;
+}
+
+.shared span {
+    font-size: 11px;
+    font-weight: 400;
+    color:#777;
+}
+
+.read {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 10px;
+    margin-left: 10px;
+    border-right: 1px solid #e2e2e2;
+
+}
+
+.read h5 {
+    font-size: 13px;
+}
+
+.read span {
+    font-size: 11px;
+    font-weight: 400;
+    color:#777;
+}
+
+.date {
+    display: flex;
+    margin-left: 10px;
+}
+
+.date .material-symbols-outlined {
+    margin: 0;
+    padding: 0;
+}
+
+.span-date {
+    font-size: 15px;
+    margin-left: 10px;
+    color:#777;
+}
+
+/* Section Mid */
+
+.section-mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.start h1 {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.start span {
+    margin: 10px 0;
+    color:#777;
+}
+
+.starting-p {
+    margin: 7px 0;
+    width: 80%;
+}
+
+.starting-p p {
+    font-size: 16px;
+    color:#111;
+}
+
+/* Cart */
+
+.cart {
+    width: 80%;
+}
+
+.cart h1 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+/* Section Emoji */
+
+.emoji {
+    align-items: center;
+    margin-top: 50px;
+    border-bottom: 1px solid #777;
+}
+
+.stats {
+    display: flex;
+    margin-top: 20px;
+}
+
+.stats-1 p {
+    color:#777;
+}
+
+.stats-1 span {
+    font-size: 25px;
+}
+
+.stats-2 p {
+    color: #777;
+}
+
+.stats-2 span {
+    font-size: 25px;
+}
+
+.stats-3 p {
+    color: #777;
+}
+
+.stats-3 span {
+    font-size: 25px;
+}
+
+.stats-4 p {
+    color: #777;
+}
+
+.stats-4 span {
+    font-size: 25px;
+}
+
+/* Mobile */
+
+@media only screen and (max-width:488px) {
+
+    .header-container {
+        display: none;
+    }
+
+    .date {
+        display: none;
+    }
+
+    .section-mid {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .start {
+        width: 100%;
+    }
+
+    .starting-p {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .cart {
+        margin-top: 20px;
+        width: 98%;
+        height: auto;
+    }
+
+    .cart h1 {
+        font-size: 22px;
+        width: 100%;
+        margin: 0 0 15px;
+    }
+
+    .cart img { 
+        height: 100%;
+        width: 96%;
+    }
+
+}
